@@ -36,3 +36,41 @@ Install all required libraries:
 
 ```bash
 pip install -r requirements.txt
+
+
+🧾 Setup Instructions
+Clone the repository
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/ComicCrafter.git
+cd ComicCrafter
+Set up API keys
+
+Rename the .env.example file to .env and add your keys:
+
+env
+Copy
+Edit
+OPENAI_API_KEY=your_openai_key
+STABILITY_KEY=your_stability_key
+Edit the script
+
+In kartoon.py, change:
+
+SCENARIO: Your story idea
+
+STYLE: Choose from 'manga', 'american', etc.
+
+Run the script
+
+bash
+Copy
+Edit
+python kartoon.py
+📁 Output
+Your comic strip will be saved as:
+strip-[style].png in the project folder.
+
+
